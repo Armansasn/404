@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: 'Space Mono', monospace;
+}
 main{
     display: flex;
     height: 100vh;
@@ -13,18 +16,33 @@ img{
     height: auto;
 }
 .header{
-    font-size: 5em;
+font-size: 64px;
+font-weight: 700;
+line-height: 95px;
+letter-spacing: -0.035em;
+text-align: left;
+color: rgb(107, 106, 106);
+
 }
 .paragrap{
-    font-size: 1.9em;
-    margin: 10px 0;
+    color: rgb(94, 93, 93);
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: -0.035em;
+text-align: left;
+
 }
 .btn{
     background-color: gray;
     color: rgb(255, 255, 255);
-    padding: 10px 15px;
-    margin: 15px;
-    border-radius: 10px;
+    width: 216px;
+    height: 68px;
+    top: 663px;
+    left: 740px;
+    border: 0;
+    margin-top: 10px;
+
 }
 @media screen and (max-width:576px){
     main{
@@ -34,6 +52,6 @@ img{
         width: 100%;
     }
     .header{
-        font-size: 4em;
+        font-size: 55px;
     }
 }
